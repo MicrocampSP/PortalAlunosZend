@@ -40,7 +40,9 @@
           <layoutsDirectory enabled="false">
             <layoutScriptsDirectory enabled="false"/>
           </layoutsDirectory>
-          <modelsDirectory/>
+          <modelsDirectory>
+            <modelFile modelName="Unidades"/>
+          </modelsDirectory>
           <viewsDirectory>
             <viewScriptsDirectory>
               <viewControllerScriptsDirectory forControllerName="Index">

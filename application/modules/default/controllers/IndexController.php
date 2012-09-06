@@ -11,8 +11,11 @@ class Default_IndexController extends Zend_Controller_Action
 
     public function indexAction()
     {
-        // action body
+        //Listando todas as unidades e mandando para a view
+        $modelUnidades = new Default_Model_Unidades();
+        $consultaUnidades = $modelUnidades->listaUnidades();
         
+        $this->view->unidades = $consultaUnidades;
     }
 
 

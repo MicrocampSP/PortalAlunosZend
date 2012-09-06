@@ -8,6 +8,24 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
 
+
+
+
+/* Para Formulario do Zend
+-------------------------------------------------- */
+form dt {
+    width: 100px;
+    display: block;
+    float: left;
+    clear: left;
+}
+form dd {
+    margin-left: 0;
+    float: left;
+    
+}
+/*--------------------------------------------------*/
+
 article,
 aside,
 details,
